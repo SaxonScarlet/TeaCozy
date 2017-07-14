@@ -1,22 +1,28 @@
 /* Global */
 
 body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
   background-color: black;
-}
-
-div {
-  border: 1px solid lightGray;
+  opacity: 0.9;
+  text-align: center;
 }
 
 a {
   text-decoration: underline;
-  color: white;
+  color: seashell;
 }
 
-.flex-cont {
+.basic-flex {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 /* Header */
@@ -49,14 +55,56 @@ nav span {
 
 .main-content {
   padding-top: 69px;
+  width: 1200px;
+  margin: auto;
 }
 
   /* Our Mission */
 
   /* Tea of the Month */
+#month-tea {
+  width: 1000px;
+  height: 700px;
+  padding-top: 69px;
+  margin: auto;
+}
+
+
 
   /* Locations */
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 69px;
+}
+
+#locations .basic-flex {
+  width: 1200px;
+  margin: auto;
+}
+
+.location {
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.basic-flex.locations {
+  padding-top: 5px;
+}
 
   /* Contact */
+#contact {
+  height: 200px;
+}
 
 /* Footer */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
