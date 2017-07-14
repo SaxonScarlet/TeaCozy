@@ -69,7 +69,22 @@ nav span {
   margin: auto;
 }
 
+.menu-item {
+  width: 300px;
+  padding: 5px;
+}
 
+.menu-item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.menu-item span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
 
   /* Locations */
 #locations {
